@@ -1,0 +1,38 @@
+ /* commonality */
+ body {
+    margin: 0;
+}
+
+/* BEM (a naming convention) */
+
+
+.floor {
+    display: flex;
+    justify-content: center;
+}
+
+.floor-content {
+    width: 960px;
+    height: 100%;
+}
+
+#header {
+    background: url("../img/bgk-header.png") repeat;
+    height: 670px;
+}
+
+#floor-1 {
+    height: 100px;
+}
+
+#floor-2 {
+    height: 200px;
+}
+
+#floor-3 {
+    height: 300px;
+}
+
+#floor-4 {
+    height: 400px;
+}
