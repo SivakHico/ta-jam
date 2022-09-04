@@ -1,10 +1,6 @@
- /* commonality */
- body {
+body {
     margin: 0;
 }
-
-/* BEM (a naming convention) */
-
 
 .floor {
     display: flex;
@@ -17,7 +13,8 @@
 }
 
 #header {
-    background: url("../img/bgk-header.png") repeat;
+    background: url("../img/bgk-header.png") no-repeat;
+    background-size: cover;
     height: 670px;
 }
 
@@ -35,4 +32,8 @@
 
 #floor-4 {
     height: 400px;
+}
+
+.video {
+    width: 960px;
 }
