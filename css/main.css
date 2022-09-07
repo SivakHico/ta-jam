@@ -1,7 +1,22 @@
 body {
+    color: white;
+    background: black;
     margin: 0;
     font-size: 14px;
     font-family: 'Roboto';
+}
+
+#header .bg-light {
+  background-color: transparent !important;
+}
+
+#header .navbar-nav a {
+  color: white;
+  text-transform: uppercase;
+}
+
+#header .navbar-nav a:hover {
+  color: #00e0d0;
 }
 
 ul {
@@ -25,8 +40,42 @@ a {
 #header {
     background: url("../img/bgk-header.png") no-repeat;
     background-size: cover;
-    height: 670px;
+    height: 100vh;
     color: #fff;
+}
+
+#stroy {
+  height: 100vh;
+  color: #fff;
+}
+
+.stroy {
+  padding-top: 20%;
+}
+
+.stroy-btn {
+  border-radius: 0;
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.stroy-btn:hover {
+  background-color: #00e0d0;
+  color: #fff;
+}
+
+#header .btn-primary {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+#header .btn-primary:hover {
+  background-color: #00e0d0;
+}
+
+.jumbotron {
+  margin-top: 20%;
 }
 
 #floor-1 {
